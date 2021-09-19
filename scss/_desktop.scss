@@ -1,0 +1,265 @@
+@media only screen and (min-width: 1048px) {
+
+.nav-container {
+  header {
+    padding: 2em 5em;
+
+    .logo {
+      margin-right: 3em;
+    }
+  }
+}
+
+#hero {
+  min-height: 90vh;
+
+  padding: 0 5em 2em;
+
+  .hero-container {
+    .header {
+      font-size: 3.7em;
+    }
+
+    .subheader {
+      font-size: 1.1em;
+    }
+
+    .hire-me {
+      margin-top: 3em;
+    }
+  }
+}
+
+#work {
+  
+  .work-container {
+    padding: 0 5em;
+
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
+
+#skills {
+  .skills-illustration1,
+  .skills-illustration2 { 
+    width: 200px;
+    height: 200px;
+  }
+
+  .skills-container {
+    padding: 3em 5em;
+
+    .skills-group {
+      .card {
+        width: 300px;
+        height: 400px;
+         
+        .skills-content {
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
+
+#services {
+  padding: 2em 5em 4em;
+
+  > h1 {
+    font-size: 2em;
+    margin-bottom: 80px;
+  }
+
+  .services-container {
+    .card {
+      margin: 0 200px 0 70px;
+
+      h1 {
+        font-size: 2.4em;
+      }
+    }
+
+    .contact {
+      .container {
+        font-size: 1.15em;
+      }
+    }
+  }
+}
+
+footer {
+  font-size: 0.9em;
+}
+
+}
+
+@media only screen and (min-width: 1252px) {
+
+.nav-container {
+  header {
+    padding: 2em 6em;
+
+    .logo {
+      font-size: 1.8em;
+    }
+
+    ul {
+      li {
+        font-size: 1.3em;
+        padding: 0 1em;
+      }
+    }
+  }
+}
+
+#hero {
+  padding: 0 6em 4em;
+
+  .hero-container {
+    .header {
+      font-size: 4.2em;
+    }
+
+    .subheader {
+      font-size: 1.3em;
+      letter-spacing: 0.2em;
+    }
+
+    .hire-me {
+      margin-top: 4em;
+      font-size: 1.2em;
+
+      .arrow-down {
+        width: 38px;
+        height: 39px;
+      }
+    }
+  }
+
+  .scroll-illustration {
+    width: 50px;
+  }
+}
+
+#work {
+  .work-container {
+    padding: 0 6em;
+
+    h1 {
+      font-size: 2.5em;
+    }
+  }
+}
+
+#skills {
+  .skills-container {
+    padding: 3em 6em;
+  }
+}
+
+#services {
+  padding: 2em 6em 4em;
+
+  > h1 {
+    font-size: 2.5em;
+  }
+
+  .services-container {
+    .card {
+      margin: 0 200px 0 100px;
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      .details {
+        font-size: 1.1em;
+      }
+    }
+  }
+
+  .contact {
+    .container {
+      p {
+        font-size: 1.25em;
+      }
+    }
+  }
+}
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+.nav-container {
+  header {
+    padding: 2em 9em;
+  }
+}
+
+#hero {
+  padding: 0 9em 4em;
+}
+
+#work {
+  .work-container {
+    padding: 0 9em;
+  }
+}
+
+#skills {
+  .skills-container {
+    padding: 3em 9em;
+  }
+
+  .skills-illustration1 { top: 70px; left: 120px; }
+  .skills-illustration2 { bottom: 40px; right: 120px; }
+}
+
+#services {
+  padding: 2em 9em 4em;
+}
+
+}
+
+@media only screen and (min-width: 1650px) {
+
+  .nav-container {
+    header {
+      padding: 2em 15em;
+    }
+  }
+  
+  #hero {
+    padding: 0 15em 4em;
+
+    .header {
+      font-size: 4.5px;
+    }
+  }
+  
+  #work {
+    .work-container {
+      padding: 0 15em;
+    }
+  }
+  
+  #skills {
+    .skills-illustration1,
+    .skills-illustration2 { 
+      width: 200px;
+      height: 200px;
+    }
+
+    .skills-container {
+      padding: 3em 15em;
+    }
+  }
+  
+  #services {
+    padding: 2em 15em 4em;
+  }
+  
+  }

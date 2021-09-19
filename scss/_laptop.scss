@@ -1,0 +1,155 @@
+@media only screen and (min-width: 789px) {
+
+.nav-container {
+  header {
+    .logo {
+      font-size: 1.3em;
+    }
+
+    ul {
+      li {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+#hero {
+  .hero-container {
+    .header {
+      font-size: 2.9em;
+    }
+
+    .subheader {
+      font-size: 1.05em;
+    }
+
+    .hire-me {
+      .arrow-down {
+        width: 33px;
+      }
+
+      span {
+        font-size: 1.15em;
+      }
+    }
+  
+    .scroll-illustration {
+      margin-top: 2em;
+    }
+  }
+}
+
+#services{
+
+  .services-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .card {
+      margin: unset;
+      margin-right: 40px;
+    }
+  }
+
+  .contact {
+    width: 100%;
+
+    .container {
+      // unset settings for hover animation
+      width: 70px;
+      display: grid;
+      grid-template-columns: unset;
+
+      p { display: none; }
+
+      &:hover {
+        width: 100%;
+        grid-template-columns: auto 1fr;
+        padding: 0.8em;
+
+        p { display: unset; }
+      }
+    }
+  }
+}
+
+}
+
+@media only screen and (min-width: 896px) {
+
+#hero {
+
+  .hero-container {
+
+    margin-top: 40px;
+    
+    .header {
+      font-size: 3.3em;
+    }
+
+    span {
+      font-size: 1.2em;
+    }
+  
+    .scroll-illustration {
+      margin-top: 2em;
+    }
+  }
+}
+
+#work {
+  #work-picture-desktop {
+    display: unset;
+  }
+
+  #work-picture-mobile {
+    display: none;
+  }
+
+  .work-container {
+
+    .work-group {
+      grid-template-columns: repeat(12, 1fr);
+
+      .right {
+        position: relative;
+        left: -1.5em;
+      }
+      
+      // first
+      .work-content {
+        grid-row: 1 / 6;
+        grid-column: 1 / 8;
+      }
+  
+      .work-picture {
+        z-index: 3;
+        grid-row: 2 / -1;
+        grid-column: 8 / -1;
+        &.left { background-position: center; }
+      }
+
+      // last
+
+      #work-picture-desktop {
+        grid-row: 1 / 5;
+        grid-column: 1 / 6;
+      }
+
+      .work-content.right {
+        grid-row: 2 / -1;
+        grid-column: 6 / -1;
+      }
+    }
+  }
+}
+
+#skills {
+  .skills-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+}
